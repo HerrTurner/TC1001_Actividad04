@@ -45,7 +45,7 @@ def draw():
 
 def move():
     "Move ball and targets."
-    #Limit the targets to 10 elements
+    #Limit the targets to 20 elements
 
     if len(targets) < 11:
 
