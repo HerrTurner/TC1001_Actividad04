@@ -47,7 +47,7 @@ def move():
     "Move ball and targets."
     #Limit the targets to 20 elements
 
-    if len(targets) < 9:
+    if len(targets) < 11:
 
          if randrange(40) == 0:
              y = randrange(-150, 150)
@@ -70,10 +70,12 @@ def move():
             targets.append(target)
 
     draw()
-
+    #Reset x position if target out of sreen
+    #Reset random y position if target out of screen
     for target in targets:
         if not inside(target):
-            print("OUT")
+            target.x = 200
+            target.y = randrange(-150, 150)
 
     ontimer(move, 50)
 
