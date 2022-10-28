@@ -11,7 +11,7 @@ Modificaciones
 Buscamos hacer un juego mas interactivo y que no se detenga si no logras eliminar los targets
 
 Jorge:
-Si un target se sale de la pantalla, dibujarlo en el otro lado para que el juego continue
+Si un target se sale de la pantalla, dibujarlo en el otro lado para que el juego continue de manera suave.
 
 Manuel:
 Cambiar la velocidad de los targets para que sean mas rapidos
